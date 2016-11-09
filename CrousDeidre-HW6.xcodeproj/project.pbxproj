@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3936B0F81DADFCEE00E1A987 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B0F71DADFCEE00E1A987 /* AppDelegate.swift */; };
+		3936B0FA1DADFCEE00E1A987 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B0F91DADFCEE00E1A987 /* ViewController.swift */; };
+		3936B0FD1DADFCEE00E1A987 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3936B0FB1DADFCEE00E1A987 /* Main.storyboard */; };
+		3936B1001DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3936B0FE1DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodeld */; };
+		3936B1021DADFCEE00E1A987 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3936B1011DADFCEE00E1A987 /* Assets.xcassets */; };
+		3936B1051DADFCEE00E1A987 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3936B1031DADFCEE00E1A987 /* LaunchScreen.storyboard */; };
+		3936B1101DADFCEE00E1A987 /* CrousDeidre_HW6Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B10F1DADFCEE00E1A987 /* CrousDeidre_HW6Tests.swift */; };
+		3936B11B1DADFCEE00E1A987 /* CrousDeidre_HW6UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B11A1DADFCEE00E1A987 /* CrousDeidre_HW6UITests.swift */; };
+		3936B12B1DADFDFF00E1A987 /* candidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B12A1DADFDFF00E1A987 /* candidateViewController.swift */; };
+		3936B12D1DADFE4000E1A987 /* CandidateDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B12C1DADFE4000E1A987 /* CandidateDetailViewController.swift */; };
+		3936B12F1DADFE7E00E1A987 /* showCandidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B12E1DADFE7E00E1A987 /* showCandidateViewController.swift */; };
+		3936B1311DADFEBD00E1A987 /* candidate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B1301DADFEBD00E1A987 /* candidate.swift */; };
+		3936B1331DADFEE000E1A987 /* showVoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B1321DADFEE000E1A987 /* showVoteViewController.swift */; };
+		3936B1351DADFF2700E1A987 /* voteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B1341DADFF2700E1A987 /* voteViewController.swift */; };
+		3936B1371DADFF6200E1A987 /* protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3936B1361DADFF6200E1A987 /* protocols.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3936B10C1DADFCEE00E1A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3936B0EC1DADFCEE00E1A987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3936B0F31DADFCEE00E1A987;
+			remoteInfo = "CrousDeidre-HW6";
+		};
+		3936B1171DADFCEE00E1A987 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3936B0EC1DADFCEE00E1A987 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3936B0F31DADFCEE00E1A987;
+			remoteInfo = "CrousDeidre-HW6";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3936B0F41DADFCEE00E1A987 /* CrousDeidre-HW6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CrousDeidre-HW6.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3936B0F71DADFCEE00E1A987 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3936B0F91DADFCEE00E1A987 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3936B0FC1DADFCEE00E1A987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3936B0FF1DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CrousDeidre_HW6.xcdatamodel; sourceTree = "<group>"; };
+		3936B1011DADFCEE00E1A987 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3936B1041DADFCEE00E1A987 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3936B1061DADFCEE00E1A987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936B10B1DADFCEE00E1A987 /* CrousDeidre-HW6Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrousDeidre-HW6Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3936B10F1DADFCEE00E1A987 /* CrousDeidre_HW6Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrousDeidre_HW6Tests.swift; sourceTree = "<group>"; };
+		3936B1111DADFCEE00E1A987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936B1161DADFCEE00E1A987 /* CrousDeidre-HW6UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CrousDeidre-HW6UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3936B11A1DADFCEE00E1A987 /* CrousDeidre_HW6UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrousDeidre_HW6UITests.swift; sourceTree = "<group>"; };
+		3936B11C1DADFCEE00E1A987 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3936B12A1DADFDFF00E1A987 /* candidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = candidateViewController.swift; sourceTree = "<group>"; };
+		3936B12C1DADFE4000E1A987 /* CandidateDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandidateDetailViewController.swift; sourceTree = "<group>"; };
+		3936B12E1DADFE7E00E1A987 /* showCandidateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showCandidateViewController.swift; sourceTree = "<group>"; };
+		3936B1301DADFEBD00E1A987 /* candidate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = candidate.swift; sourceTree = "<group>"; };
+		3936B1321DADFEE000E1A987 /* showVoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = showVoteViewController.swift; sourceTree = "<group>"; };
+		3936B1341DADFF2700E1A987 /* voteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = voteViewController.swift; sourceTree = "<group>"; };
+		3936B1361DADFF6200E1A987 /* protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = protocols.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3936B0F11DADFCEE00E1A987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936B1081DADFCEE00E1A987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936B1131DADFCEE00E1A987 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3936B0EB1DADFCEE00E1A987 = {
+			isa = PBXGroup;
+			children = (
+				3936B0F61DADFCEE00E1A987 /* CrousDeidre-HW6 */,
+				3936B10E1DADFCEE00E1A987 /* CrousDeidre-HW6Tests */,
+				3936B1191DADFCEE00E1A987 /* CrousDeidre-HW6UITests */,
+				3936B0F51DADFCEE00E1A987 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3936B0F51DADFCEE00E1A987 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3936B0F41DADFCEE00E1A987 /* CrousDeidre-HW6.app */,
+				3936B10B1DADFCEE00E1A987 /* CrousDeidre-HW6Tests.xctest */,
+				3936B1161DADFCEE00E1A987 /* CrousDeidre-HW6UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3936B0F61DADFCEE00E1A987 /* CrousDeidre-HW6 */ = {
+			isa = PBXGroup;
+			children = (
+				3936B0F71DADFCEE00E1A987 /* AppDelegate.swift */,
+				3936B0F91DADFCEE00E1A987 /* ViewController.swift */,
+				3936B12A1DADFDFF00E1A987 /* candidateViewController.swift */,
+				3936B12C1DADFE4000E1A987 /* CandidateDetailViewController.swift */,
+				3936B12E1DADFE7E00E1A987 /* showCandidateViewController.swift */,
+				3936B1301DADFEBD00E1A987 /* candidate.swift */,
+				3936B1321DADFEE000E1A987 /* showVoteViewController.swift */,
+				3936B1341DADFF2700E1A987 /* voteViewController.swift */,
+				3936B1361DADFF6200E1A987 /* protocols.swift */,
+				3936B0FB1DADFCEE00E1A987 /* Main.storyboard */,
+				3936B1011DADFCEE00E1A987 /* Assets.xcassets */,
+				3936B1031DADFCEE00E1A987 /* LaunchScreen.storyboard */,
+				3936B1061DADFCEE00E1A987 /* Info.plist */,
+				3936B0FE1DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodeld */,
+			);
+			path = "CrousDeidre-HW6";
+			sourceTree = "<group>";
+		};
+		3936B10E1DADFCEE00E1A987 /* CrousDeidre-HW6Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3936B10F1DADFCEE00E1A987 /* CrousDeidre_HW6Tests.swift */,
+				3936B1111DADFCEE00E1A987 /* Info.plist */,
+			);
+			path = "CrousDeidre-HW6Tests";
+			sourceTree = "<group>";
+		};
+		3936B1191DADFCEE00E1A987 /* CrousDeidre-HW6UITests */ = {
+			isa = PBXGroup;
+			children = (
+				3936B11A1DADFCEE00E1A987 /* CrousDeidre_HW6UITests.swift */,
+				3936B11C1DADFCEE00E1A987 /* Info.plist */,
+			);
+			path = "CrousDeidre-HW6UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3936B0F31DADFCEE00E1A987 /* CrousDeidre-HW6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3936B11F1DADFCEE00E1A987 /* Build configuration list for PBXNativeTarget "CrousDeidre-HW6" */;
+			buildPhases = (
+				3936B0F01DADFCEE00E1A987 /* Sources */,
+				3936B0F11DADFCEE00E1A987 /* Frameworks */,
+				3936B0F21DADFCEE00E1A987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CrousDeidre-HW6";
+			productName = "CrousDeidre-HW6";
+			productReference = 3936B0F41DADFCEE00E1A987 /* CrousDeidre-HW6.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3936B10A1DADFCEE00E1A987 /* CrousDeidre-HW6Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3936B1221DADFCEE00E1A987 /* Build configuration list for PBXNativeTarget "CrousDeidre-HW6Tests" */;
+			buildPhases = (
+				3936B1071DADFCEE00E1A987 /* Sources */,
+				3936B1081DADFCEE00E1A987 /* Frameworks */,
+				3936B1091DADFCEE00E1A987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3936B10D1DADFCEE00E1A987 /* PBXTargetDependency */,
+			);
+			name = "CrousDeidre-HW6Tests";
+			productName = "CrousDeidre-HW6Tests";
+			productReference = 3936B10B1DADFCEE00E1A987 /* CrousDeidre-HW6Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3936B1151DADFCEE00E1A987 /* CrousDeidre-HW6UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3936B1251DADFCEE00E1A987 /* Build configuration list for PBXNativeTarget "CrousDeidre-HW6UITests" */;
+			buildPhases = (
+				3936B1121DADFCEE00E1A987 /* Sources */,
+				3936B1131DADFCEE00E1A987 /* Frameworks */,
+				3936B1141DADFCEE00E1A987 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3936B1181DADFCEE00E1A987 /* PBXTargetDependency */,
+			);
+			name = "CrousDeidre-HW6UITests";
+			productName = "CrousDeidre-HW6UITests";
+			productReference = 3936B1161DADFCEE00E1A987 /* CrousDeidre-HW6UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3936B0EC1DADFCEE00E1A987 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Deidre Crous";
+				TargetAttributes = {
+					3936B0F31DADFCEE00E1A987 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					3936B10A1DADFCEE00E1A987 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3936B0F31DADFCEE00E1A987;
+					};
+					3936B1151DADFCEE00E1A987 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 3936B0F31DADFCEE00E1A987;
+					};
+				};
+			};
+			buildConfigurationList = 3936B0EF1DADFCEE00E1A987 /* Build configuration list for PBXProject "CrousDeidre-HW6" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3936B0EB1DADFCEE00E1A987;
+			productRefGroup = 3936B0F51DADFCEE00E1A987 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3936B0F31DADFCEE00E1A987 /* CrousDeidre-HW6 */,
+				3936B10A1DADFCEE00E1A987 /* CrousDeidre-HW6Tests */,
+				3936B1151DADFCEE00E1A987 /* CrousDeidre-HW6UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3936B0F21DADFCEE00E1A987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936B1051DADFCEE00E1A987 /* LaunchScreen.storyboard in Resources */,
+				3936B1021DADFCEE00E1A987 /* Assets.xcassets in Resources */,
+				3936B0FD1DADFCEE00E1A987 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936B1091DADFCEE00E1A987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936B1141DADFCEE00E1A987 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3936B0F01DADFCEE00E1A987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936B12B1DADFDFF00E1A987 /* candidateViewController.swift in Sources */,
+				3936B0FA1DADFCEE00E1A987 /* ViewController.swift in Sources */,
+				3936B1001DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodeld in Sources */,
+				3936B1371DADFF6200E1A987 /* protocols.swift in Sources */,
+				3936B1311DADFEBD00E1A987 /* candidate.swift in Sources */,
+				3936B1351DADFF2700E1A987 /* voteViewController.swift in Sources */,
+				3936B12F1DADFE7E00E1A987 /* showCandidateViewController.swift in Sources */,
+				3936B1331DADFEE000E1A987 /* showVoteViewController.swift in Sources */,
+				3936B12D1DADFE4000E1A987 /* CandidateDetailViewController.swift in Sources */,
+				3936B0F81DADFCEE00E1A987 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936B1071DADFCEE00E1A987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936B1101DADFCEE00E1A987 /* CrousDeidre_HW6Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3936B1121DADFCEE00E1A987 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3936B11B1DADFCEE00E1A987 /* CrousDeidre_HW6UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3936B10D1DADFCEE00E1A987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3936B0F31DADFCEE00E1A987 /* CrousDeidre-HW6 */;
+			targetProxy = 3936B10C1DADFCEE00E1A987 /* PBXContainerItemProxy */;
+		};
+		3936B1181DADFCEE00E1A987 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3936B0F31DADFCEE00E1A987 /* CrousDeidre-HW6 */;
+			targetProxy = 3936B1171DADFCEE00E1A987 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3936B0FB1DADFCEE00E1A987 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3936B0FC1DADFCEE00E1A987 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3936B1031DADFCEE00E1A987 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3936B1041DADFCEE00E1A987 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3936B11D1DADFCEE00E1A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3936B11E1DADFCEE00E1A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3936B1201DADFCEE00E1A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CrousDeidre-HW6/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.CrousDeidre-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3936B1211DADFCEE00E1A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "CrousDeidre-HW6/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.CrousDeidre-HW6";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3936B1231DADFCEE00E1A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CrousDeidre-HW6Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.CrousDeidre-HW6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrousDeidre-HW6.app/CrousDeidre-HW6";
+			};
+			name = Debug;
+		};
+		3936B1241DADFCEE00E1A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "CrousDeidre-HW6Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.CrousDeidre-HW6Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CrousDeidre-HW6.app/CrousDeidre-HW6";
+			};
+			name = Release;
+		};
+		3936B1261DADFCEE00E1A987 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CrousDeidre-HW6UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.CrousDeidre-HW6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CrousDeidre-HW6";
+			};
+			name = Debug;
+		};
+		3936B1271DADFCEE00E1A987 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CrousDeidre-HW6UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "utcs.CrousDeidre-HW6UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "CrousDeidre-HW6";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3936B0EF1DADFCEE00E1A987 /* Build configuration list for PBXProject "CrousDeidre-HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936B11D1DADFCEE00E1A987 /* Debug */,
+				3936B11E1DADFCEE00E1A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3936B11F1DADFCEE00E1A987 /* Build configuration list for PBXNativeTarget "CrousDeidre-HW6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936B1201DADFCEE00E1A987 /* Debug */,
+				3936B1211DADFCEE00E1A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3936B1221DADFCEE00E1A987 /* Build configuration list for PBXNativeTarget "CrousDeidre-HW6Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936B1231DADFCEE00E1A987 /* Debug */,
+				3936B1241DADFCEE00E1A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3936B1251DADFCEE00E1A987 /* Build configuration list for PBXNativeTarget "CrousDeidre-HW6UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3936B1261DADFCEE00E1A987 /* Debug */,
+				3936B1271DADFCEE00E1A987 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3936B0FE1DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3936B0FF1DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodel */,
+			);
+			currentVersion = 3936B0FF1DADFCEE00E1A987 /* CrousDeidre_HW6.xcdatamodel */;
+			path = CrousDeidre_HW6.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3936B0EC1DADFCEE00E1A987 /* Project object */;
+}
